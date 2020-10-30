@@ -4,44 +4,91 @@
 /* STUDENTS, PUT YOUR STYLES HERE */
 .item_1_box {
 background-color:#090;
+transition: background-color 1s ease .01s;
+}
+.item_1_box:hover {
+background-color:#009;
 }
 
 .item_2_box {
 width: 50%;
+transition: width 3s ease-in .001s;
+}
+.item_2_box:hover {
+width: 70%;
 }
 
 .item_3_box {
 height: 1.2em;
+transition: height .5s ease-out .01s;
+}
+.item_3_box:hover {
+height: 2em;
 }
 
 .item_4_box {
+	transform: scale(1);
+	transition: transform .5s ease .01s;
+}
+.item_4_box:hover {
+	transform: scale(1.25);
 }
 
 .item_5_box {
 height: 1.2em;
+opacity: 1;
+transition: opacity .6s ease-in .01s;
+}
+.item_5_box:hover {
+opacity: .5;
 }
 
 .item_6_box {
 	color:#ff9;
 	font-size: 1em;
+	transition: color .5s ease-out .01s, font-size .5s ease-out .01s;
+}
+.item_6_box:hover {
+	color:#f09;
+	font-size: 2em;
 }
 
 .item_7_box {
 	width: 80%;
 	padding-left: 4%;
 	text-align:left;
+	transition: padding-left .4s ease .01s, width .4s ease .01s;
+}
+.item_7_box:hover {
+	width: 74%;
+	padding-left: 10%;
+	
 }
 
 .item_8_box {
 	width:50%;
 	color:#ff9;
 	background-color: #090;
+	transition: width .5s ease .01s, color 1s ease-in .01s;
+}
+.item_8_box:hover {
+	width:60%;
+	color:#f10;
 }
 
 .item_9_box {
 	width: 150px;
 	height: 34px;
 	padding: 26px 0 0 0;
+	background-image: url(../img/dog.png);
+	background-position: 0px 0px;
+	transition: background-position .5s ease-out .01s;
+}
+.item_9_box:hover {
+	width: 150px;
+	height: 34px;
+	padding: 26px 0 0 0;
+	background-position: -150px 0px;
 }
 
 
